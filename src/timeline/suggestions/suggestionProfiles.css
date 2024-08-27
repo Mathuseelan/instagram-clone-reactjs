@@ -1,0 +1,33 @@
+.suggestionsProfiles {
+  margin: 30px 0;
+  }
+  
+  .suggestionsProfiles{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+  }
+  .suggestionsProfiles__profiles-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .suggestionsProfiles__profiles-left span {
+    display: block;
+  }
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile-about{
+      font-size: small;
+      color: rgba(255, 255, 255, 0.63);
+  }   
+  .suggestionsProfiles__profiles-right button{
+      background-color: transparent;
+      border: none;
+      color: #0095f6;
+      font-weight: bold;
+      font-size: 15px;
+  }

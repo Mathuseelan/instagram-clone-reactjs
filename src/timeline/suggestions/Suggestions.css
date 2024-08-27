@@ -1,0 +1,8 @@
+.suggestions__title{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.suggestions{
+    margin-top: 40px;
+}

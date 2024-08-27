@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.authentication {
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  padding-top: 32px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.auth__right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 348px;
+}
+.auth__signup {
+  padding: 25px 0;
+  text-align: center;
+  border: 1px solid rgb(219, 219, 219);
+  color: black;
+}
+.auth__signup span button {
+  font-size: 14px;
+  background: none;
+  color: rgb(0, 149, 246);
+  border: none;
+  outline: none;
+}
+.auth__signup span button:hover {
+  cursor: pointer;
+}
+
+.auth__left > img {
+  width: 400px;
+}

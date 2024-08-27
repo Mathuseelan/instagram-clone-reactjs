@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  .signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 10px;
+    padding-right:40px;
+    padding-left:40px;
+  }
+  .signup__logo {
+    width: 100%;
+    margin: 36px auto 12px;
+  }
+  .signup__logo {
+    width: 200px;
+    text-align: center;
+    color: black;
+  }
+  .signup__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 24px auto auto;
+   
+    gap: 8px;
+  }
+  
+  .signup__inputs > input {
+    height: 35px;
+    padding: 9px 8px 7px;
+    background-color: rgb(250, 250, 250);
+    outline: none;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+  }
+  .signup__inputs > input::placeholder {
+    font-size: 12px;
+  }
+  .signup__button{
+      width: 100%;
+      height: 35px;
+      outline: none;
+      border: none;
+      background-color: rgb(46, 164, 79);
+      font-weight: bolder;
+      color: white;
+      margin: 10px auto 20px;
+      
+      border-radius: 8px;
+  }
+  .signup__button:hover{
+      cursor: pointer;
+  }
+  
+  .signup__button:active{
+    background-color: rgb(30, 102, 50);
+  }
